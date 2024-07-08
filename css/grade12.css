@@ -1,0 +1,117 @@
+
+.container_grade_12{
+    content:'';
+    background-image: url('../public/images/sbarde.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+.container_grade_12::after{
+    content: '';
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: #4f81bd;
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.container_grade12_subjects{
+    grid-template-columns: repeat(auto-fit,minmax(250px , 1fr));
+}
+
+
+/* language */
+.arabic_subject,
+.english_subject,
+.french_subject,
+.german_subject,
+.italian_subject,
+.math_subject,
+.chemistry_subject,
+.physics_subject,
+.biology_subject,
+.geology_subject,
+.geography_subject,
+.history_subject,
+.philosophia_subject,
+.psychology_subject
+{
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.arabic_subject{
+    background-image: url('../public/images/subjects_images/arabic_image.jpg');
+}
+.english_subject{
+    background-image: url('../public/images/subjects_images/english_image.jpg');
+}
+.french_subject{
+    background-image: url('../public/images/subjects_images/french_image-background.jpg');
+}
+.german_subject{
+    background-image: url('../public/images/subjects_images/german_image.jpg');
+}
+.italian_subject{
+    background-image: url('../public/images/subjects_images/italian_image.jpg');
+}
+.math_subject{
+    background-image: url('../public/images/subjects_images/math_image.webp');
+}
+.chemistry_subject{
+    background-image: url('../public/images/subjects_images/chemistry_image.jpg');
+}
+.physics_subject{
+    background-image: url('../public/images/subjects_images/physcis_image.jpg');
+}
+.biology_subject{
+    background-image: url('../public/images/subjects_images/biology_image.jpg');
+}
+.geography_subject{
+    background-image: url('../public/images/subjects_images/geography_image.jpg');
+}
+.history_subject{
+    background-image: url('../public/images/subjects_images/history_image.jpg');
+}
+.philosophia_subject{
+    background-image: url('../public/images/subjects_images/philosophia_image.jpg');
+}
+.geology_subject{
+    background-image: url('../public/images/subjects_images/geology_image.jpg');
+}
+.psychology_subject{
+    background-image: url('../public/images/subjects_images/psychology_image.png');
+}
+
+
+.arabic_subject::before,
+.english_subject::before,
+.french_subject::before,
+.german_subject::before,
+.italian_subject::before,
+.math_subject::before,
+.chemistry_subject::before,
+.physics_subject::before,
+.biology_subject::before,
+.geology_subject::before,
+.geography_subject::before,
+.history_subject::before,
+.philosophia_subject::before,
+.psychology_subject::before
+{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 8px;
+}

@@ -1,0 +1,49 @@
+.Grade-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.Grade-10,
+.Grade-11,
+.Grade-12{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin:10px;
+}
+
+.Grade-10{
+    background-image: url('../public/images/grade10.jpg');
+}
+
+.Grade-11{
+    background-image: url('../public/images/grade11.jpg');
+}
+
+.Grade-12{
+    background-image: url('../public/images/grade12.webp');
+}
+
+.Grade-10::after,
+.Grade-11::after,
+.Grade-12::after{
+content: '';
+height:100%;
+width: 100%;
+z-index: 1;
+opacity: 0.5;
+position: absolute;
+left: 0;
+bottom: 0;
+background-color: black;
+    backdrop-filter: blur(20px);
+transition: 0.5s linear;
+}
+
+
+.Grade-10:hover .Grade-10::after,
+.Grade-11:hover .Grade-11::after,
+.Grade-12:hover .Grade-12::after{
+opacity: 0.7;
+}

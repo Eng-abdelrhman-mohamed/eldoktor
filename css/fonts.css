@@ -1,0 +1,22 @@
+@font-face {
+    font-family: fontNavbar;
+    src: url('../public/fonts/fontNavbar.otf');
+}
+@font-face {
+    font-family: fontHome;
+    src: url('../public/fonts/fontHome.ttf');
+}
+@font-face {
+    font-family: fontSection;
+    src: url('../public/fonts/fontSection.ttf');
+}
+
+.font-navbar {
+font-family: fontNavbar;
+}
+.font-home{
+font-family: fontHome;
+}
+.font-section{
+font-family: fontSection;
+}

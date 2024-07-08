@@ -1,0 +1,13 @@
+.worm{
+    animation: animation_Worm 2s ease-in-out alternate infinite; 
+    }
+    
+    @keyframes animation_Worm {
+        0%{
+            right:0%
+        }
+        100%{
+            right:100%
+        }
+    }
+    

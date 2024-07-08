@@ -1,0 +1,9 @@
+
+.home_container{
+    background-image: url('../public/images/bg_home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y:60px;
+    background-repeat: no-repeat;
+    }
+    

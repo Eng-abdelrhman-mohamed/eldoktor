@@ -1,0 +1,24 @@
+
+.container_grade_10_subject{
+    content:'';
+    background-image: url('../public/images/sbarde.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+.container_grade_10_subject::after{
+    content: '';
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: #4f81bd;
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.grade_10_courses{
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
